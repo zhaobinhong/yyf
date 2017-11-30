@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Head -->
+<head>
+
+    <title>北京艳颜菲文化有限公司</title>
+
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="content" content="北京艳颜菲文化有限公司">
+    <meta name="author" content="Hovace Zhao">
+    <!--<script type="application/x-javascript"> addEventListener("load", function () {-->
+    <!--setTimeout(hideURLbar, 0);-->
+    <!--}, false);-->
+    <!--function hideURLbar() {-->
+    <!--window.scrollTo(0, 1);-->
+    <!--} </script>-->
+    <!-- //Meta-Tags -->
+
+    <!-- Custom-Stylesheet-Links -->
+    <!-- Bootstrap-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <!-- Index-Page-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <!-- Owl-Carousel-CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+    <!-- Chocolat-CSS -->
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+    <!-- Animate-CSS -->
+    <link rel="stylesheet" href="css/animate-custom.css" type="text/css" media="all">
+    <!--<link rel="stylesheet" href="css/common.css" type="text/css" media="all">-->
+    <!-- //Custom-Stylesheet-Links -->
+
+    <link rel="stylesheet" href="css/stylec.css" type="text/css">
+
+    <!-- Fonts -->
+    <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css" media="all">-->
+    <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500" type="text/css" media="all">-->
+    <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Press+Start+2P" type="text/css" media="all">-->
+    <!-- //Fonts -->
+
+    <!-- Font-Awesome-File-Links -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+    <!-- TTF -->
+    <link rel="stylesheet" href="fonts/fontawesome-webfont.ttf" type="text/css" media="all">
+    <!-- //Font-Awesome-File-Links -->
+
+
+</head>
+<!-- //Head -->
+
+
+<!-- Body -->
+<body>
+
+
+<!-- Header -->
+<div class="agileheader" id="agileitshome">
+
+    <!-- Navigation -->
+    <div class="w3lsnavigation">
+        <nav class="navbar navbar-inverse agilehover-effect wthreeeffect navbar-default">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo -->
+                <div class="logo">
+                    <a class="navbar-brand logo-w3l button" href="index.html">艳颜菲</a>
+                </div>
+                <!-- //Logo -->
+            </div>
+
+            <div id="navbar" class="navbar-collapse navbar-right collapse">
+                <ul class="nav navbar-nav navbar-right cross-effect" id="cross-effect">
+                    <li><a class="scroll" href="#w3lsaboutaits">公司简介</a></li>
+                    <li><a class="scroll" href="#wthreetabsaits">下载</a></li>
+                    <li><a class="scroll" href="#wthreeblogsaits">协议与监护</a></li>
+                    <li><a class="scroll" href="#wthreeblogsaits">交易纠纷处理</a></li>
+                    <li><a class="scroll" href="#wthreeblogsaits">防沉迷系统</a></li>
+                    <li><a class="scroll" href="#w3portfolioaits">游戏截图</a></li>
+                    <li><a class="scroll" href="#agilecontactw3ls">联系我们</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录&注册<b class="caret"></b></a>
+                        <div class="dropdown-menu">
+                            <form action="#" method="post">
+                                <div id="login" class="animate w3loginagile form">
+                                    <h3>登录</h3>
+                                    <input type="text" Name="Userame" placeholder="用户名" required="">
+                                    <input type="password" Name="Password" placeholder="密码" required="">
+                                    <div class="send-button wthree agileits">
+                                        <input type="submit" value="登录">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                            <form action="#" method="post">
+                                <div id="register" class="animate w3registeragile form">
+                                    <h3>注册</h3>
+                                    <input type="text" Name="Name" placeholder="用户名" required="">
+                                    <input type="text" Name="Email" placeholder="邮箱" required="">
+                                    <input type="password" id="password" Name="Password" placeholder="密码" required="">
+                                    <input type="password" id="password2" Name="Password1" onblur="bd_pass()"
+                                           placeholder="再次输入密码" required="">
+                                    <p class="pageinputmsg" id="password_qr_ts" style="display: none;">
+                                        <strong id="password_qr_tss"></strong>
+                                    </p>
+                                    <input type="text" id="name" class="form-control" onblur="isname()"
+                                           placeholder="真实姓名">
+                                    <p class="pageinputmsg" id="name_ts" style="display: none;">
+                                        <strong id="name_tss"></strong>
+                                    </p>
+                                    <input type="text" id="code" class="form-control" onblur="iscode()"
+                                           placeholder="身份证号">
+                                    <p class="pageinputmsg" id="code_ts" style="display: none;">
+                                        <strong id="code_tss">您输入的身份证号码有误</strong>
+                                    </p>
+                                    <input type="text" id="phone" class="form-control" onblur="isphone()"
+                                           placeholder="手机号">
+                                    <p class="pageinputmsg" id="phone_ts" style="display: block;">
+                                        <strong id="phone_tss">请输入正确手机号</strong>
+                                    </p>
+                                    <div class="send-button wthree agileits">
+                                        <input type="submit" value="注册">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- //Navbar-Collapse -->
+
+        </nav>
+    </div>
+    <!-- //Navigation -->
+
+    <!-- Slider -->
+    <div class="slider">
+        <ul class="rslides" id="slider">
+            <li class="first-slide w3ls">
+                <img src="images/slide-1.jpg" alt="Game Robo">
+                <!--<div class="heading">-->
+                <!--<h1>专业的态度</h1>-->
+                <!--<h2>准确的市场定位</h2>-->
+                <!--<h3>多元化的运营管理</h3>-->
+                <!--</div>-->
+            </li>
+            <li class="second-slide aits">
+                <img src="images/slide-2.jpg" alt="Game Robo">
+            </li>
+            <li class="third-slide w3-agileits">
+                <img src="images/slide-3.jpg" alt="Game Robo">
+            </li>
+            <li class="fourth-slide agileinfo">
+                <img src="images/slide-4.jpg" alt="Game Robo">
+            </li>
+            <li class="fifth-slide wthree">
+                <img src="images/slide-5.jpg" alt="Game Robo">
+            </li>
+        </ul>
+    </div>
+    <!-- //Slider -->
+
+</div>
+<!-- //Header -->
+
+
+<!-- About -->
+<div class="w3lsaboutaits" id="w3lsaboutaits">
+    <div class="container">
+        <div class="w3lsaboutaits-grids">
+            <div class="col-md-6 w3lsaboutaits-grid w3lsaboutaits-grid-1">
+                <h3>北京艳颜菲文化有限公司</h3>
+                <p style="text-indent: 2em">
+                    北京艳颜菲文化有限公司成立于2014年，注册资金50万，是一家专业从事无线增值内容的策划、创作、发布及运营的科技公司，公司由互联网业内资深人士创办，是一支具有卓越策划能力、优秀表现力、高超创造力的团队。公司全力致力于成为中国最具影响力的数字娱乐文化产业企业。并坚持以专业的态度、准确的市场定位、多元化的运营管理，并在数字文化领域进行积极探索，致力于推动娱乐潮流的走向，目前公司主要业务涉及游戏、动漫、音乐等多个领域。拥有从事多年通信行业运营的团队,对互联网游戏、手机游戏、有线及无线通信数据业务拥有丰富的运营经验</p>
+            </div>
+            <div class="col-md-6 w3lsaboutaits-grid w3lsaboutaits-grid-2">
+                <img src="images/about.jpg" alt="Game Robo">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //About -->
+
+
+<!-- Platforms -->
+<div class="agileinfoplatforms" id="agileinfoplatforms">
+    <div class="agileinfoplatformsgrids">
+        <div class="col-md-3 w3agile_gallery_grid w3agile_gallery_grid1">
+            <div class="w3agile_gallery_image">
+                <figure>
+                    <img src="images/platform-1.jpg" alt="Game Robo" class="img-responsive">
+                    <figcaption>
+                        <h4>电脑端</h4>
+                        <p><span><img src="images/platform-1-icon.png" alt="Game Robo"></span></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-md-3 w3agile_gallery_grid w3agile_gallery_grid2">
+            <div class="w3agile_gallery_image">
+                <figure>
+                    <img src="images/platform-2.jpg" alt="Game Robo" class="img-responsive">
+                    <figcaption>
+                        <h4>游戏机</h4>
+                        <p><span><img src="images/platform-2-icon.png" alt="Game Robo"></span></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-md-3 w3agile_gallery_grid w3agile_gallery_grid3">
+            <div class="w3agile_gallery_image">
+                <figure>
+                    <img src="images/platform-3.jpg" alt="Game Robo" class="img-responsive">
+                    <figcaption>
+                        <h4>XBOX</h4>
+                        <p><span><img src="images/platform-3-icon.png" alt="Game Robo"></span></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-md-3 w3agile_gallery_grid w3agile_gallery_grid4">
+            <div class="w3agile_gallery_image">
+                <figure>
+                    <img src="images/platform-4.jpg" alt="Game Robo" class="img-responsive">
+                    <figcaption>
+                        <h4>WII</h4>
+                        <p><span><img src="images/platform-4-icon.png" alt="Game Robo"></span></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!-- //Platforms -->
+
+
+<!-- Tabs -->
+<div class="wthreetabsaits" id="wthreetabsaits">
+    <section>
+        <div class="tabs tabs-style-line">
+            <nav class="container">
+                <ul>
+                    <li><a href="#section-line-1"><span>人气游戏</span></a></li>
+                    <!--<li><a href="#section-line-2"><span>NEW ARRIVALS</span></a></li>-->
+                    <!--<li><a href="#section-line-3"><span>BEST SELLERS</span></a></li>-->
+                    <!--<li><a href="#section-line-4"><span>EDITOR'S PICK</span></a></li>-->
+                </ul>
+            </nav>
+            <div class="content-wrap">
+                <section id="section-line-1">
+                    <div id="owl-demo" class="owl-carousel text-center">
+                        <div class="item">
+                            <div class="agileinfoitem-image">
+                                <img src="images/popular-1.jpg" alt="Game Robo">
+                            </div>
+                            <h3>力量地平线 3</h3>
+                            <h4>2000+ Downloads</h4>
+                            <div class="wthreeratingaits">
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="wthreeitemdownload">
+                                <a data-toggle="modal" data-target="#myModal9">详情</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="agileinfoitem-image">
+                                <img src="images/dfsf.jpg" alt="Game Robo">
+                            </div>
+                            <h3>全民钓鱼</h3>
+                            <h4>1000+ Downloads</h4>
+                            <div class="wthreeratingaits">
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="wthreeitemdownload">
+                                <a data-toggle="modal" data-target="#myModal9">详情</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="agileinfoitem-image">
+                                <img src="images/popular-3.jpg" alt="Game Robo">
+                            </div>
+                            <h3>质量效应 4  </h3>
+                            <h4>900+ Downloads</h4>
+                            <div class="wthreeratingaits">
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="wthreeitemdownload">
+                                <a data-toggle="modal" data-target="#myModal9">详情</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="agileinfoitem-image">
+                                <img src="images/popular-4.jpg" alt="Game Robo">
+                            </div>
+                            <h3>全面封锁</h3>
+                            <h4>874+ Downloads</h4>
+                            <div class="wthreeratingaits">
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="wthreeitemdownload">
+                                <a data-toggle="modal" data-target="#myModal9">详情</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="agileinfoitem-image">
+                                <img src="images/popular-5.jpg" alt="Game Robo">
+                            </div>
+                            <h3>刺客信条  III</h3>
+                            <h4>990+ Downloads</h4>
+                            <div class="wthreeratingaits">
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="wthreeitemdownload">
+                                <a data-toggle="modal" data-target="#myModal9">详情</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="agileinfoitem-image">
+                                <img src="images/popular-6.jpg" alt="Game Robo">
+                            </div>
+                            <h3>上古卷轴</h3>
+                            <h4>620+ Downloads</h4>
+                            <div class="wthreeratingaits">
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="wthreeitemdownload">
+                                <a data-toggle="modal" data-target="#myModal9">详情</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+                <!--<section id="section-line-2">-->
+                <!--<div id="owl-demo1" class="owl-carousel text-center">-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-1.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>Call of Duty: Ghosts</h3>-->
+                <!--<h4>3 Million+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-2.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>Mortal Kombat X</h3>-->
+                <!--<h4>1.5 Million+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-3.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>Guild Wars 2</h3>-->
+                <!--<h4>530000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-4.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>League of Legends</h3>-->
+                <!--<h4>974000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-5.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>Child of Eden</h3>-->
+                <!--<h4>457000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-6.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>Dark Souls III</h3>-->
+                <!--<h4>788000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-7.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>World of Warships</h3>-->
+                <!--<h4>489000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-8.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>Metro 2033</h3>-->
+                <!--<h4>907000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-9.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>DOTA 2</h3>-->
+                <!--<h4>750000+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--<div class="agileinfoitem-image">-->
+                <!--<img src="images/new-10.jpg" alt="Game Robo">-->
+                <!--</div>-->
+                <!--<h3>World of warcraft</h3>-->
+                <!--<h4>2 Million+ Downloads</h4>-->
+                <!--<div class="wthreeratingaits">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--<li><i class="fa fa-star" aria-hidden="true"></i></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wthreeitemdownload">-->
+                <!--<a href="#">Download</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</section>-->
+            </div><!-- /content -->
+        </div><!-- /tabs -->
+    </section>
+</div>
+<!-- //Tabs -->
+
+
+<!-- Blogs -->
+<div class="wthreeblogsaits" id="wthreeblogsaits">
+    <div class="wthreeblogsaits-grids">
+
+        <div class="col-md-3 wthreeblogsaits-grid wthreeblogsaits-grid-1">
+            <a href="#" data-toggle="modal" data-target="#myModal1"><img src="images/agreement.jpg" alt="服务协议"></a>
+            <!--<span class="w3date">10-10-2016</span>-->
+            <h4><a href="#" data-toggle="modal" data-target="#myModal1">服务协议</a></h4>
+            <p class="hid-three">
+                北京艳颜菲文化有限公司同意按照本协议的规定及其不时发布的操作规则提供基于互联网的相关服务，为获得网络服务，服务使用人同意本协议的全部条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击“同意”按钮即表示用户完全接受本协议项下的全部条款。
+                本协议下的条款可由艳颜菲文化随时变更，用户须定期审阅本协议。协议条款一旦发生变动，艳颜菲文化将会在相关的页面上提示变更内容。变更后的协议在相关的页面上公布即有效代替原来的协议。用户如不同意艳颜菲文化对本协议的所作的任何变更，应立即停止使用艳颜菲文化提供的服务。如用户在本协议变更后继续使用艳颜菲文化的服务，即视作用户已完全同意变更后的协议。用户在使用艳颜菲文化提供的各项服务之前，应仔细阅读本服务协议，如用户不同意本服务协议及/或随时对其的修改，请停止使用艳颜菲文化提供的服务。</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal1">查看更多<i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-md-3 wthreeblogsaits-grid wthreeblogsaits-grid-2">
+            <a href="#" data-toggle="modal" data-target="#myModal2"><img src="images/ParentalControls.jpg"
+                                                                         alt="家长监护"></a>
+            <!--<span class="w3date">15-10-2016</span>-->
+            <h4><a href="#" data-toggle="modal" data-target="#myModal2">家长监护</a></h4>
+            <p class="hid-three">
+                “网络游戏未成年人家长监护工程”是一项由国内网络游戏企业共同发起并参与实施，由中华人民共和国文化部指导，旨在加强家长对未成年人参与网络游戏的监护，引导未成年人健康、绿色参与网络游戏，和谐家庭关系的社会性公益行动。它提供了一种切实可行的方法，一种家长实施监控的管道，使家长纠正部分未成年子女沉迷游戏的行为成为可能。</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal2">查看更多<i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-md-3 wthreeblogsaits-grid wthreeblogsaits-grid-3">
+            <a href="#" data-toggle="modal" data-target="#myModal3"><img src="images/teamwork.jpg" alt="交易纠纷处理"></a>
+            <!--<span class="w3date">20-10-2016</span>-->
+            <h4><a href="#" data-toggle="modal" data-target="#myModal3">交易纠纷处理</a></h4>
+            <p class="hid-three">
+                北京艳颜菲文化有限公司（以下简称艳颜菲文化）在此特别提醒用户在注册、登陆本网络游戏前请务必仔细阅读本《纠纷处理方式》（未成年人应当在其法定监护人陪同下阅读）中的各个条款，以确保您在享受本网络游戏服务的同时维护自身合法权益：</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal3">查看更多<i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-md-3 wthreeblogsaits-grid wthreeblogsaits-grid-4">
+            <a href="#" data-toggle="modal" data-target="#myModal4"><img src="images/anti-addict.jpg" alt="防沉迷系统"></a>
+            <!--<span class="w3date">25-10-2016</span>-->
+            <h4><a href="#" data-toggle="modal" data-target="#myModal4">防沉迷系统</a></h4>
+            <p class="hid-three">
+                防沉迷系统，是根据政府《网络游戏防沉迷系统开发标准》及其相关要求开发实施，自2007年7月16日起已正式实施。旨在解决未成年人沉迷网络游戏的现状，让未成年人无法依赖长时间的在线来获得游戏内个人能力的增长，报偿值的增加，有效控制未成年人使用者的在线时间，改变不利于未成年人身心健康的不良游戏习惯</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal4">查看更多<i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- Tooltip-Content -->
+    <div class="tooltip-content">
+
+        <div class="modal fade details-modal" id="myModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">详情</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class='poster-main carousel' data-setting='{
+	         "width":800,
+             "height":469,
+             "posterWidth":332,
+             "posterHeight":469,
+             "verticalAlign":"middle",
+             "autoPlay":true,
+             "speed":1000,
+             "delay":1000,
+             "scale":0.9
+	}'>
+                            <div class='poster-btn poster-prev-btn'></div>
+                            <ul class='poster-list'>
+                                <li class="list-item"><a href="#"><img src="images/1-63197-2-1473140605537_360x640.jpg"
+                                                                       alt=""></a></li>
+                                <li class="list-item"><a href="#"><img src="images/1-63197-2-1473140605536_360x640.jpg"
+                                                                       alt=""></a></li>
+                                <li class="list-item"><a href="#"><img src="images/1-63197-2-1473140605535_360x640.jpg"
+                                                                       alt=""></a></li>
+                                <li class="list-item"><a href="#"><img src="images/1-63197-2-1473140605534_360x640.jpg"
+                                                                       alt=""></a></li>
+                                <li class="list-item"><a href="#"><img src="images/1-63197-2-1473140605533_360x640.jpg"
+                                                                       alt=""></a></li>
+                                <li class="list-item"><a href="#"><img
+                                        src="images/1-63197-204084989-1501424848506_360x640.jpg" alt=""></a></li>
+                                <li class="list-item"><a href="#"><img
+                                        src="images/1-63197-204084989-1501424848489_360x640.jpg" alt=""></a></li>
+                                <li class="list-item"><a href="#"><img
+                                        src="images/1-63197-204084989-1501424848451_360x640.jpg" alt=""></a></li>
+                            </ul>
+                            <div class='poster-btn poster-next-btn'></div>
+                        </div>
+
+                        <h4 style="    display: block;color: azure;margin-top: 2em;">全民钓鱼简介</h4>
+
+                        <p>《全民钓鱼》中真实还原了世界各地一百多种鱼类；9大世界驰名钓场、海滨胜地。只需一指一键，赤道风情、深海怪鱼，皆在眼前。
+                            《全民钓鱼》是一款集钓鱼、收集、养成于一体的休闲游戏。钓鱼，在轻松悠哉中又有热血挑战；收集图鉴，让您亲眼看到大海中千奇百怪的神奇鱼类；养成，让各种珍稀美丽的鱼类在您的水族箱中争奇斗艳。
+                            花开了，随时随地，和她共约——钓鱼去！</p>
+
+                        <br>
+                        <br>
+                        <div class="wthreeitemdownload text-center">
+                            <a href="http://res3.d.cn/android/new/game/97/63197/qmdy_1488531294650.apk?f=web_1',1,63197)">下载游戏</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade details-modal" id="myModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">服务协议</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="gtco-section border-bottom">
+                            <div class="gtco-container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>一、特别提示</h4>
+                                                <p>
+                                                    北京艳颜菲文化科技有限公司（以下简称“艳颜菲文化”）同意按照本协议的规定及其不时发布的操作规则提供基于互联网的相关服务(以下称“网络服务”)，为获得网络服务，服务使用人(以下称“用户”)同意本协议的全部条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击“同意”按钮即表示用户完全接受本协议项下的全部条款。
+                                                    本协议下的条款可由艳颜菲文化随时变更，用户须定期审阅本协议。协议条款一旦发生变动，艳颜菲文化将会在相关的页面上提示变更内容。变更后的协议在相关的页面上公布即有效代替原来的协议。用户如不同意艳颜菲文化对本协议的所作的任何变更，应立即停止使用艳颜菲文化提供的服务。如用户在本协议变更后继续使用艳颜菲文化的服务，即视作用户已完全同意变更后的协议。用户在使用艳颜菲文化提供的各项服务之前，应仔细阅读本服务协议，如用户不同意本服务协议及/或随时对其的修改，请停止使用艳颜菲文化提供的服务。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>二、服务内容</h4>
+                                                <p>
+                                                    2.1艳颜菲文化服务的具体内容由艳颜菲文化根据实际情况提供，例如论坛(BBS)、聊天室、电子邮件、发表新闻评论等。艳颜菲文化保留随时变更、中止或终止部分或全部网络服务的权利。</p>
+                                                <p>2.2
+                                                    艳颜菲文化在提供网络服务时，可能会对部分网络服务(例如网络游戏及其他电信增值服务)的用户收取一定的费用。在此情况下，艳颜菲文化会在相关页面上做明确的提示。如用户不同意支付该等费用，则可不接受相关的网络服务。</p>
+                                                <p>2.3
+                                                    用户理解：艳颜菲文化仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如电脑、调制解调器及其他与接入互联网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费)均应由用户自行负担。</p>
+                                                <p>2.4 用户应使用正版软件接受网络服务。</p>
+                                                <p>2.5
+                                                    艳颜菲文化是专为无物流的文化和虚拟产品提供的数字发行平台，通过数据分发和支持系统、销售支付计费系统以及客户服务系统等，为用户获取数字内容产品提供优选渠道。用户理解艳颜菲文化也会为其他互联网企业定制专业化的用户服务体系，即用户通过艳颜菲文化获得的服务内容有可能来源于第三方企业，一旦用户接受该第三方企业提供的网络服务内容，则用户应当遵守该第三方企业对其服务做出的约定。如第三方企业接入艳颜菲文化系统且其既有用户可以使用艳颜菲文化提供的服务，则该既有用户即成为艳颜菲文化的用户，其账号也自动成为艳颜菲文化通行证账号。该既有用户同意亦将与在艳颜菲文化系统中直接注册的用户一样遵守本协议的约定。但对于这些既有用户，艳颜菲文化在服务过程中会仍然提供其已经熟悉的游戏账号充值界面，该过程仅为方便用户接受服务而设，既有用户与艳颜菲文化之间的关系仍应受本协议的约定。</p>
+                                                <p>2.6 关于用户付费的特别提示：</p>
+                                                <p>(A)
+                                                    在艳颜菲文化系统中，用户通过任何支付手段（包括但不限于使用支付宝或快钱工具进行的银行卡充值、手机卡充值等）为其账号充值； </p>
+                                                <p>(B)
+                                                    为了尊重用户的消费习惯和符合用户体验习惯，用户在利用艳颜菲文化系统提供的服务进行付费的过程中，可能出现直接获得其需要的第三方具体应用内容中的结算工具，而不是直接显示获得钻石的情况，用户理解并知晓艳颜菲文化已经在后台技术系统内自动将钻石兑换为第三方系统自身的结算工具，用户为获取第三方具体应用内容而支付的费用均系通过第三方应用内容提供企业的自身系统的结算工具而非直接通过钻石进行结算的； </p>
+                                                <p>(C)
+                                                    第三方应用内容提供企业如果是网络游戏运营企业，则该第三方网络游戏运营企业可能会根据国家有关规定发行网络游戏虚拟货币，同时在游戏中设置游戏道具，用户可以根据自己的需要使用钻石。通常来说，在用户选择进入第三方网络游戏运营企业的系统后，艳颜菲文化会自动将用户账号中剩余的钻石全部显示为可以消费的第三方网络游戏运营企业发行的网络游戏虚拟货币总量，钻石和它们的兑换比例将会明确公告给用户。即使用户可能感受到钻石和第三方网络游戏运营企业设置的游戏道具之间的直接存在对应关系，但在游戏程序之外的计费系统中，仍然是由钻石兑换成该第三方网络游戏运营企业发行的网络游戏虚拟货币，然后再将该网络游戏虚拟货币根据用户的需求转换为游戏内的道具。用户理解其对游戏道具的需求往往是消费的最终目的，艳颜菲文化和第三方网络游戏运营企业合作对于付费过程的设置均为方便用户消费和符合用户体验习惯而设置，即使用户在整个消费第三方网络游戏运营企业过程中可能无法直接体验到其发行的网络游戏虚拟货币的存在，而事实上它们确实真实存在于网络游戏发行企业的系统中。用户理解并明确，用户在第三方网络游戏运营企业所运营的网络游戏中所购买的任何存在于网络游戏程序内的游戏道具均系通过兑换或支付该三方网络游戏运营企业自身发行的网络游戏虚拟货币而获得的，无论是从法律还是技术上均不是直接通过钻石进行结算的，游戏道具在任何情况下均无法通过钻石进行直接购买。</p>
+                                                <p>
+                                                    (D)用户理解并知晓，艳颜菲文化不提供用户间交易钻石的平台化服务。用户间交易钻石系构成对本协议的违反，艳颜菲文化有权在未经通知的情况下，采取相应适当措施，以确保艳颜菲文化不提供用户间交易钻石的平台化服务。</p>
+                                                <p>2.7 艳颜菲文化有权不定时地向用户发送业务公告等信息，通过邮件或短信等方式。若收到短信后不愿再接受类似消息，请回复0000。</p>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>三、使用规则 </h4>
+                                                <p>3.1
+                                                    用户承诺以其真实身份注册成为艳颜菲文化的用户，并保证所提供的个人身份资料信息真实、完整、有效，依据法令规定和本协议约定对所提供的信息承担相应的法律责任。艳颜菲文化有权审查用户注册所提供的身份信息是否真实、有效。用户以其真实身份注册成为艳颜菲文化用户后，需要修改所提供的个人身份资料信息的，艳颜菲文化应当及时、有效地为其提供该项服务。 </p>
+                                                <p>3.2
+                                                    用户注册成功后，艳颜菲文化将给予每个用户一个用户账号及相应的密码。该用户账号和密码由用户负责保管。用户有义务妥善保管其账号及密码，并正确、安全地使用其账号及密码，并对登录后所持账号产生的行为依法享有权利和承担责任。艳颜菲文化应积极地采取技术与管理等合理措施保障用户账号的安全、有效。任何一方未尽上述义务导致账号密码遗失、账号被盗等情形而给用户和他人的民事权利造成损害的，应当承担由此产生的法律责任</p>
+                                                <p>3.3
+                                                    用户发现其账号或密码被他人非法使用或有使用异常的情况的，应及时根据艳颜菲文化公布的处理方式通知艳颜菲文化，并有权通知艳颜菲文化采取措施暂停该账号的登录和使用。艳颜菲文化在收到用户要求采取措施暂停其账号登录和使用的通知后，应当要求用户提供并核实与其注册身份信息相一致的个人有效身份信息。艳颜菲文化核实用户所提供的个人有效身份信息与所注册的身份信息相一致的，应当及时采取措施暂停用户账号的登录和使用。艳颜菲文化违反前述约定，未及时采取措施暂停用户账号的登录和使用，因此而给用户造成损失的，应当承担其相应的法律责任。用户没有提供其个人有效身份证件或者用户提供的个人有效身份证件与所注册的身份信息不一致的，艳颜菲文化有权拒绝用户前述请求。</p>
+                                                <p>3.4
+                                                    用户为了维护其合法权益，向艳颜菲文化提供与所注册的身份信息相一致的个人有效身份信息时，艳颜菲文化应当为用户提供账号注册人证明、原始注册信息等必要的协助和支持，并根据需要向有关行政机关和司法机关提供相关证据信息资料。</p>
+                                                <p>3.5 用户同意接受艳颜菲文化通过电子邮件或其他方式向用户发送的商品促销或其他相关商业信息。</p>
+                                                <p>3.6 用户在使用艳颜菲文化服务过程中，必须遵循以下原则：</p>
+                                                <p>
+                                                    (A) 遵守中国有关的法律和法规；
+                                                    <br>
+                                                    (B) 不得为任何非法目的而使用网络服务系统；
+                                                    <br>
+                                                    (C) 遵守所有与网络服务有关的网络协议、规定和程序；
+                                                    <br>
+
+                                                    (D) 不得利用艳颜菲文化服务系统进行任何可能对互联网的正常运转造成不利影响的行为；；
+                                                    <br>
+
+                                                    (E) 不得利用艳颜菲文化服务系统传输任何骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料； <br>
+
+
+                                                    (F) 不得利用艳颜菲文化服务系统进行任何不利于艳颜菲文化的行为；
+                                                    <br>
+
+                                                    (G)
+                                                    就艳颜菲文化及合作商业伙伴的服务、产品、业务咨询应采取相应机构提供的沟通渠道，不得在公众场合发布有关艳颜菲文化及相关服务的负面宣传。
+                                                    <br>
+
+                                                    (H) 如发现任何非法使用用户账号或账号出现安全漏洞的情况，应立即通告艳颜菲文化。
+                                                    <br>
+
+                                                </p>
+                                                <p>3.7
+                                                    用户使用根据本协议获得的用户账号和密码登录艳颜菲文化的网站或接受其他艳颜菲文化提供的服务项目时，应遵守该网站或服务项目的相关服务协议及使用守则，用户登录上述网站或接受上述服务项目时即视为对相关服务协议及使用守则的接受。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>四、内容所有权 </h4>
+                                                <p>4.1
+                                                    艳颜菲文化提供的网络服务内容可能包括：文字、软件、声音、图片、录象、图表等。所有这些内容受著作权法、商标法和其它法律法规的保护。 </p>
+                                                <p>4.2
+                                                    用户只有在获得艳颜菲文化或其他相关权利人的书面授权之后才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>五、用户信息保护 </h4>
+                                                <p>5.1
+                                                    保护用户（特别是未成年人）的隐私是艳颜菲文化的一项基本政策，因此，若父母（监护人）希望未成年人（尤其是十岁以下子女）得以使用本服务，必须以父母（监护人）名义申请注册，在接受本服务时，应以法定监护人身份加以判断本服务是否符合于未成年人。</p>
+                                                <p>
+                                                    5.2在不透露单个用户隐私资料的前提下，艳颜菲文化有权对整个用户数据库进行技术分析并对已进行分析、整理后的用户数据库进行商业上的利用。尽管艳颜菲文化对用户的隐私权保护做了极大的努力，但是仍然不能保证现有的安全技术措施使用户的技术信息等不受任何形式的损失。</p>
+                                                <p>
+                                                    5.3未经用户许可艳颜菲文化不得向任何第三方公开或共享用户注册资料中的姓名、个人有效身份证件号码、联系方式、家庭住址等个人身份信息，但下列情况除外：</p>
+                                                <p>5.3.1 用户或用户监护人授权艳颜菲文化披露的; </p>
+                                                <p>5.3.2 有关法令要求艳颜菲文化披露的；</p>
+                                                <p>5.3.3 司法机关或行政机关基于法定程序要求艳颜菲文化提供的；</p>
+                                                <p>5.3.4 艳颜菲文化为了维护自己合法权益而向用户提起诉讼或者仲裁时；</p>
+                                                <p>5.3.5 应用户监护人的合法要求而提供用户个人身份信息时；</p>
+                                                <p>5.3.6 为维护社会公众的利益。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>6. 免责声明</h4>
+                                                <p>6.1众乐通行证所有者不保证以下事宜：</p>
+                                                <p>
+                                                    (i) 本服务将符合您的要求
+                                                    <br>
+                                                    (ii) 本服务将不受干扰、及时提供、安全可靠或不会出错。
+                                                </p>
+                                                <p>6.2
+                                                    用户明确同意其使用艳颜菲文化服务所存在的风险将完全由其自己承担；因其使用艳颜菲文化服务而产生的一切后果也由其自己承担，艳颜菲文化对用户不承担任何责任。</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>7. 服务变更、中断或终止</h4>
+                                                <p>7.1 如因系统维护或升级的需要而需暂停网络服务，艳颜菲文化将尽可能事先进行通告。</p>
+                                                <p>
+                                                    7.2 用户有发布违法信息、严重违背社会公德、以及其他违反法令禁止性规定的行为时，艳颜菲文化有权立即终止对用户提供服务。
+                                                </p>
+                                                <p>7.3
+                                                    用户在接受艳颜菲文化服务时实施本协议中有明确约定或属于艳颜菲文化事先明确告知的应被终止服务的禁止性行为的，艳颜菲文化有权终止对用户提供服务。</p>
+                                                <p>7.4
+                                                    用户提供虚假注册身份信息，或实施违反本协议的行为，艳颜菲文化采取中止措施应当通知用户并告知中止期间，中止期间应该是合理的，中止期间届满艳颜菲文化应当及时恢复对用户的服务。</p>
+                                                <p>7.5 艳颜菲文化根据本条约定中止或终止对用户提供部分或全部服务的，艳颜菲文化应负举证责任。</p>
+                                                <p>7.6
+                                                    除前款所述情形外，艳颜菲文化同时保留在不事先通知用户的情况下随时中止或终止部分或全部网络服务的权利，对于所有服务的中断或终止而造成的任何损失，艳颜菲文化无需对用户或任何第三方承担任何责任。</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>8. 违约赔偿</h4>
+                                                <p>
+                                                    用户同意保障和维护艳颜菲文化及其他用户的利益，如因用户违反有关法律、法规或本协议项下的任何条款而给艳颜菲文化或任何其他第三人造成损失，用户同意承担由此造成的损害赔偿责任。</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>9. 法律管辖</h4>
+                                                <p>9.1 本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律。</p>
+                                                <p>
+                                                    9.2 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均应向 北京市海淀区人民法院 提起诉讼。
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>10.通知和送达</h4>
+                                                <p>本协议项下所有的通知均可通过重要页面公告、电子邮件或常规的信件传送等方式进行；该等通知于发送之日视为已送达收件人。</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>11. 其他规定</h4>
+                                                <p>11.1 本协议构成双方对本协议之约定事项及其他有关事宜的完整协议，除本协议规定的之外，未赋予本协议各方其他权利。</p>
+                                                <p>
+                                                    11.2 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。
+                                                </p>
+                                                <p>11.3 本协议中的标题仅为方便而设，不具法律或契约效果。</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>特 别 声 明</h4>
+                                                <p>
+                                                    鉴于：我国《合同法》第39条规定：采用格式条款订立合同的，提供格式条款的一方应当遵循公平原则确定当事人之间的权利和义务，并采取合理的方式提请对方注意免除或者限制其责任的条款，按照对方的要求，对该条款予以说明。</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="feature-left animate-box fadeInLeft animated-fast"
+                                             data-animate-effect="fadeInLeft">
+                                            <div class="text-left">
+                                                <h4>艳颜菲文化在此依法做出特别声明如下：</h4>
+                                                <p>
+                                                    艳颜菲文化采取合理的方式提请用户注意的义务将通过如下方式实现：在本协议中艳颜菲文化以明确的足以引起用户注意的加重字体、斜体、下划线、颜色标记等合理方式提醒用户注意相关条款（需要强调的是，还包括用户应特别注意任何未明确标记的含有“不承担”、“免责”“不得”等形式用语的条款），该等条款的确认将导致用户在特定情况下的被动、不便、损失，请用户在确认同意本协议之前再次阅读上述条款。双方确认上述条款非属于《合同法》第40条规定的“免除其责任、加重对方责任、排除对方主要权利的”的条款，艳颜菲文化尊重用户的权利尤其是诉讼的权利，但作为全球运营的公司，艳颜菲文化在尊重用户诉讼权利的同时建议诉讼管辖地法院为艳颜菲文化所在地法院，而用户选择同意合同并使用服务即视为双方对此约定达成了一致意见。</p>
+                                                <p>
+                                                    用户如有任何需要说明条款的要求，请立即停止使用服务，若用户未致电或发送有说明条款要求的邮件至艳颜菲文化而选择同意该协议，则双方在此确认艳颜菲文化已依法履行了根据用户要求对相关条款进行说明的法定义务，艳颜菲文化已给予用户充足的时间与充分的选择权来决定是否缔结本协议。
+                                                </p>
+                                                <p>
+                                                    鉴于艳颜菲文化已依法明确了上述条款、履行了格式条款制订方的义务，用户点击同意或下一步，将被视为且应当被视为用户已经完全注意并同意了本协议所有条款尤其是提醒用户注意的条款的合法性及有效性，用户不应当以艳颜菲文化未对格式条款以合理方式提醒用户注意，或未根据用户要求尽到说明义务为理由而声称或要求法院或其它任何第三方确认相关条款非法或无效。</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade details-modal" id="myModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">家长监护</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class=" ">
+                            <p class="">
+                                <span class="childcaretitle">家长监护工程概述</span>
+
+                            </p>
+                            <p class="childcareinfo">
+                                　网络游戏未成年人家长监护工程"是一项由文化部指导，北京完美时空网络技术有限公司、深圳市腾讯计算机系统有限公司、盛大游戏有限公司、广州网易计算
+                                机系统有限公司、北京畅游时代数码技术有限公司、上海巨人网络集团有限公司六家网络游戏企业共同发起并参与实施，旨在加强家长对未成年人参与网络游戏的监护，引导未成年人健康、绿色参与网络游戏，和谐家庭关系的行业自律行动。</p>
+                            <p class="childcareinfo">
+                                　2010年2月5日，首批试点的六家企业共同启动"监护工程"，开始了游戏企业与未成年人家长联合共同预防未成年人沉迷网络游戏的有益尝试。实践中一
+                                些成功的案例让我们看到"监护工程"提供了一种切实可行的方法，一种家长实施监控的管道，使家长纠正部分未成年子女沉迷网游成为可能。</p>
+                            <p class="childcareinfo">
+                                　"监护工程"引导家长和未成年人正确面对网络游戏文化，加强相互沟通，在共同约定和认可的时间或规则下健康游戏，既保护了未成年人不受过度沉迷的伤害，也为家长指导未成年人健康游戏提供了有力的技术保障。
+                            </p>
+
+                            <span class="childcaretitle">监护申请服务流程</span>
+                            <p class="childcareinfo" style="text-align: center;">
+                                <br>
+                                <img src="images/liucheng.jpg" align="center">
+
+                            </p>
+                            <br><br>
+
+
+                            <span class="childcaretitle">流程介绍详细说明</span>
+
+                            <p class="childcareinfo">
+                                <br>
+                                1.在监护人发现被监护人有沉溺灵石游戏的情况下，监护人可向艳颜菲文化申请发起未成年人家长监护机制。
+                            </p>
+
+                            <p class="childcareinfo">
+                                2.监护人需亲自通过传真方式向我司提供有效材料，向艳颜菲文化提出未成年人账户监控的申请。在收到传真后，我司即开始启动监护机制审核流程，首先进入疑似账号身份确认期。
+
+                            </p><br>
+
+                            <p class="">
+                                <span class="childcaretitle">健康提示</span>
+                                <br>
+                            </p>
+                            <p class="childcareinfo">
+                                1.在判断申请材料完整的情况下，我司将通过官方邮箱联系疑似帐号归属者，告知其在 15
+                                个自然日内将按照监护人需求对其账号进行相关操作，并要求疑似账号归属者提供身份材料以便我司判定其与监护人监护关系；
+                            </p>
+                            <p class="childcareinfo">
+                                2.若疑似账号归属者在 15 个自然日内不能提供有效身份证明或逾期提供，则默认为疑似账号归属者与被监护人身份相符。我司即按照监护人申请要求，对其游戏账号纳入防沉迷系统；
+                            </p>
+                            <p class="childcareinfo">
+                                3.若疑似账号归属者在 15个自然日内提供的身份证明与被监护人相符，我司即按照监护人申请要求，对其游戏账号纳入防沉迷系统或冻结账号；
+                            </p>
+                            <p class="childcareinfo">
+                                4.若疑似账号归属者在 15
+                                个自然日内提供的身份证明与被监护人不符，我司则无法判定其与被监护人的身份关系。在此情况下，为保障用户游戏账号安全，我司将通知监护人通过公安机关出具账号找回协查证明，由我司协助被监护人找回游戏账号后再进行后续操作。
+
+                            </p>
+                            <br>
+                            <p class="">
+                                <span class="childcaretitle">附件下载</span>
+
+                            </p>
+                            <br>
+                            <p class="childcareinfo">
+
+                                附件1：<a href="/down/1.doc">监护人信息表</a> &nbsp;&nbsp;
+                                <br>
+                                附件2：<a href="/down/2.doc">被监护人信息表</a> &nbsp;&nbsp;
+                                <br>
+                                附件3：<a href="/down/3.doc">网络游戏未成年人家长监护申请书</a>
+
+                            </p>
+
+                            <br>
+                            <p class="">
+                                <span class="childcaretitle">咨询方式</span>
+
+                            </p>
+                            <br>
+                            <p class="childcareinfo">
+
+                                咨询热线：010-84832182<br>
+                                受理时间：周一至周五09:00-18:00
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade details-modal" id="myModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">交易纠纷处理</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="twelve columns" style="width: 100%">
+                            <p>
+                                北京艳颜菲文化有限公司（以下简称艳颜菲文化）在此特别提醒用户在注册、登陆本网络游戏前请务必仔细阅读本《纠纷处理方式》（未成年人应当在其法定监护人陪同下阅读）中的各个条款，以确保您在享受本网络游戏服务的同时维护自身合法权益：</p>
+                            <h4>用户之间纠纷处理方式</h4>
+                            <p>
+                                1．艳颜菲文化仅作为本网络游戏的运营商，如若本网络游戏用户之间发生纠纷且无法协商一致的，可向国家相关行政机关或司法机关寻求解决包括但不限于向公安机关报案、申请仲裁或向人民法院提起诉讼等。艳颜菲文化将会为实名注册用户提供必要的协助和支持，并根据有关行政机关和司法机关的要求承担一定的举证责任或采取必要措施。</p>
+                            <p>
+                                2．本网络游戏用户之间发生纠纷的，也可向艳颜菲文化客服人员投诉并举证。用户需提供与其账号注册信息一致的个人有效身份证件、必要的国家行政或司法机关文件和其他艳颜菲文化要求提供的相关证据。经艳颜菲文化审核确认后，可以给予必要的协助和支持。</p>
+                            <h4>用户与艳颜菲文化之间纠纷处理方式</h4>
+                            <p>1．如本网络游戏用户对艳颜菲文化的服务有任何异议的，可以向艳颜菲文化的客服人员投诉并举证。查证属实的，艳颜菲文化将立即更正并按照现行法律规定给予用户必要的补偿。</p>
+                            <p>2．如本网络游戏用户对艳颜菲文化的服务有任何异议的，也可以向双方约定（具体参见《艳颜菲文化网络游戏使用协议》）的艳颜菲文化公司所在地人民法院提起诉讼。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade details-modal" id="myModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">防沉迷系统</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="twelve columns" style="width: 100%">
+                            <div class="gtco-section border-bottom">
+                                <div class="gtco-container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:什么是防沉迷系统？</h4>
+                                                    <p>
+                                                        A:防沉迷系统，是根据政府《网络游戏防沉迷系统开发标准》及其相关要求开发实施，自2007年7月16日起已正式实施。旨在解决未成年人沉迷网络游戏的现状，让未成年人无法依赖长时间的在线来获得游戏内个人能力的增长，报偿值的增加，有效控制未成年人使用者的在线时间，改变不利于未成年人身心健康的不良游戏习惯。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q: 防沉迷系统设计目的？</h4>
+                                                    <p>
+                                                        A:防止未成年人过度游戏，倡导健康游戏习惯，保护未成年人的合法权益；帮助法定监护人了解其监护对象是否参与此网络游戏、是否受到防沉迷系统的保护等情
+                                                        况；在实现上述目的的同时，兼顾成年玩家自主支配其游戏时间的合法权益。
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:实名认证系统与防沉迷系统的关系是怎样？ </h4>
+                                                    <p>A:实名认证系统用于收集玩家的身份证号及姓名，并以此作为判断玩家是否需要受到防沉 迷系统保护的重要依据。
+                                                        实名信息显示为不满18周岁的用户，将被初步判定为未成年人，纳入防沉迷状态。其实名信息于成年后用户自行至实名认证提交至公安机关进行验证。
+                                                        实名信息显示为已满18周岁的用户，将被初步判定为成年人。其实名信息在等待公安部门验证前将被处于非防沉迷状态，如果通过公安部门的实名验证，则正式进入非防沉迷状态。如失败，则被纳入防沉迷状态。在注册后任何时间用户都可自行至实名认证提交实名信息至公安机关进行验证。
+                                                        实名信息验证成功的帐号不纳入防沉迷系统。相反，认证失败的帐号将被纳入防沉迷系统。 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:防沉迷系统的具体内容和执行方法？ </h4>
+                                                    <p>A:确定健康游戏时间标准 1. 定义使用者累计3小时以内的游戏时间为“健康”游戏时间。 2.
+                                                        定义使用者在累计游戏3小时之后，再持续下去的2小时游戏时间为“疲劳”游戏时间。 3.
+                                                        定义使用者累计游戏时间超过5小时为“不健康”游戏时间。
+                                                        促进使用者养成健康的游戏习惯 为保障使用者适度使用并有足够的休息时间，对游戏的间隔时间和收益进行限制和引导的处理办法： 1.
+                                                        根据以上考虑，不同累计在线时间的游戏收益处理如下：累计在线时间在3小时以内，游戏收益为正常；3-5小时内，收益降为正常值的50%；5小时以上，收益降为0。
+                                                        2.
+                                                        由于不同的游戏有不同范畴，因此对于当前角色扮演类的网络游戏，特别是目前将作为试点的游戏，建议定义为“游戏收益=游戏中获得的经验值＋获得的虚拟物品”。收益为50％，则指获得经验值减半，虚拟物品减半。收益为0,则指无法获得经验值，无法获得虚拟物品。
+                                                        3. 定义使用者在累计游戏3小时之后，再持续下去的2小时游戏时间为“疲劳”游戏时间。 4.
+                                                        定义使用者累计游戏时间超过5小时为“不健康”游戏时间。
+                                                        初始化累计时间——由于使用者上下线的行为比较复杂，会出现以下多种情况，因此限时与提示的实现方法如下：
+                                                        使用者在线后，其持续在线时间将累计计算，称为“累计在线时间”。
+                                                        使用者下线后，其不在线时间也将累计计算，称为“累计下线时间”。
+                                                        使用者累计在线时间在3小时以内的，游戏收益正常。每累计在线时间满1小时，应提醒一次：“您累计在线时间已满1小时。”至累计在线时间满3小时时，应提醒：“您累计在线时间已满3小时，请您下线休息，做适当身体活动。
+                                                        ”如果累计在线时间超过3小时进入第4－5小时，在开始进入时就应做出警示：“您已经进入疲劳游戏时间，您的游戏收益将降为正常值的50％，请您尽快下线休息，做适当身体活动。”此后，应每30分钟警示一次。
+                                                        如果累计在线时间超过5小时进入第6小时，在开始进入时就应做出警示：“您已进入不健康游戏时间，请您立即下线休息。如不下线，您的身体健康将受到损害，您的收益已降为零。”此后，应每15分钟警示一次。
+                                                        受防沉迷系统限制的用户，当下线时间超过5小时时，累计游戏时间初始化为0。初始化后进入游戏就会开始重新计算累计游戏时间。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <br>
+                                                    <br>
+                                                    <h4>Q:防沉迷系统的执行对象？ </h4>
+                                                    <p>A:未成年用户（未满18岁者）； 身份验证信息不完整的用户； 未经过身份验证的用户。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:用户在注册和游戏中如果年龄刚好在18岁，系统能够及时转换未成年人和成年人的身份吗？</h4>
+                                                    <p>A:在未成年人年龄自然增长到成年人后，系统能自动识别并完成身份的转换。</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:我是成年人，还有必要填写实名信息么？</h4>
+                                                    <p>A:当然需要，所有未登记实名信息的玩家都将默认纳入防沉迷系统的保护范围。</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:我的帐号被盗了，能用实名登记的身份证据来找回帐号吗？</h4>
+                                                    <p>
+                                                        A:实名信息不做帐号的安全依据和归属判断。实名信息的唯一作用就是确定玩家是否为防沉迷对象。至于人工取回帐号所需要的那个证件号码，是指注册帐号时填写的有效证件号码，而不是实名信息里的身份证号。</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>
+                                                        Q:我是未成年人，累计游戏时间已超过5小时，进入了“不健康”游戏时间，请问，这时我可以和其他进行玩家交易么？可以使用个人商店么？</h4>
+                                                    <p>A:可以，以上行为不会受到影响</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="feature-left animate-box fadeInLeft animated-fast"
+                                                 data-animate-effect="fadeInLeft">
+                                                <div class="text-left">
+                                                    <h4>Q:上线3小时后下线，然后累计3小时后上线可以清除在线时间么？</h4>
+                                                    <p>
+                                                        A:不会的，按照国家规定，只有累计下线5小时，才会清除一次累计在线时间。也就是说，无论您在线3分钟或是100个小时，只要您累计下线时间达5小时，所有在线累计时间都会清零。</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="clearfix"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- //Tooltip-Content -->
+
+</div>
+<!-- //Blogs -->
+
+
+<!-- Portfolio -->
+<div class="w3portfolioaits" id="w3portfolioaits">
+    <h3>游戏截图</h3>
+    <div class="w3portfolioaits-items">
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-1">
+            <a class="example-image-link" href="images/popular-1.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/popular-1.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-2">
+            <a class="example-image-link" href="images/editor-1.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/editor-1.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-3">
+            <a class="example-image-link" href="images/editor-2.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/editor-2.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-4">
+            <a class="example-image-link" href="images/editor-3.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/editor-3.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-5">
+            <a class="example-image-link" href="images/editor-4.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/editor-4.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-6">
+            <a class="example-image-link" href="images/editor-9.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/editor-9.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-7">
+            <a class="example-image-link" href="images/best-8.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/best-8.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-8">
+            <a class="example-image-link" href="images/best-6.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/best-6.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-9">
+            <a class="example-image-link" href="images/new-1.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/new-1.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-9">
+            <a class="example-image-link" href="images/new-7.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/new-7.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-9">
+            <a class="example-image-link" href="images/new-8.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/new-8.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 w3portfolioaits-item w3portfolioaits-item-9">
+            <a class="example-image-link" href="images/popular-10.jpg" data-lightbox="example-set" data-title="">
+                <div class="grid">
+                    <figure class="effect-apollo">
+                        <img src="images/popular-10.jpg" alt="Game Robo">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</div>
+<!-- //Portfolio -->
+
+
+<!-- Stats -->
+<div class="w3lsstatsaits" id="w3lsstatsaits">
+    <div class="container">
+
+        <div class="w3lsstatsaits-info">
+            <div class="col-md-3 w3lsstatsaits-grid w3lsstatsaits-grid-1">
+                <div class="w3lsstatsaits-img">
+                    <img src="images/stats-1.png" alt="Corsa Racer">
+                </div>
+                <div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='10000' data-delay='5'
+                     data-increment=4>10000
+                </div>
+                <p>游戏</p>
+            </div>
+            <div class="col-md-3 w3lsstatsaits-grid w3lsstatsaits-grid-2">
+                <div class="w3lsstatsaits-img">
+                    <img src="images/stats-2.png" alt="Corsa Racer">
+                </div>
+                <div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='1657033000' data-delay='5'
+                     data-increment="1">1657033000
+                </div>
+                <p>下载</p>
+            </div>
+            <div class="col-md-3 w3lsstatsaits-grid w3lsstatsaits-grid-3">
+                <div class="w3lsstatsaits-img">
+                    <img src="images/stats-3.png" alt="Corsa Racer">
+                </div>
+                <div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='192000' data-delay='5'
+                     data-increment="11">192000
+                </div>
+                <p>关注</p>
+            </div>
+            <div class="col-md-3 w3lsstatsaits-grid w3lsstatsaits-grid-4">
+                <div class="w3lsstatsaits-img">
+                    <img src="images/stats-4.png" alt="Corsa Racer">
+                </div>
+                <div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='71600' data-delay='5'
+                     data-increment="1">71600
+                </div>
+                <p>在线玩家</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+<!-- //Stats -->
+
+
+<!-- Partners -->
+<!--<div class="aitspartnersw3l">-->
+<!--<div id="owl-demo4" class="owl-carousel text-center">-->
+<!--<div class="item">-->
+<!--<img src="images/partner-1.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-2.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-3.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-4.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-5.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-6.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-7.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-8.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-9.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-10.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-11.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-12.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-13.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-14.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-15.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-16.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-17.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-18.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-19.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img src="images/partner-20.jpg" alt="Game Robo">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!-- //Partners -->
+
+
+<!-- Newsletter -->
+<div class="w3lsnewsletter" id="w3lsnewsletter">
+    <div class="container">
+        <div class="w3lsnewsletter-grids">
+            <div class="col-md-5 w3lsnewsletter-grid w3lsnewsletter-grid-1 subscribe">
+                <p>订阅</p>
+            </div>
+            <div class="col-md-7 w3lsnewsletter-grid w3lsnewsletter-grid-2 email-form">
+                <form action="#" method="post">
+                    <input class="email" type="email" name="Email" placeholder="请输入您的邮箱" required="">
+                    <input type="submit" class="submit" value="订阅">
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //Newsletter -->
+
+
+<!-- Contact -->
+<div class="agilecontactw3ls" id="agilecontactw3ls">
+    <div class="container">
+        <h3>写信给我们</h3>
+        <form action="#" method="post">
+            <div class="col-md-6 agilecontactw3ls-grid agilecontactw3ls-grid-1">
+                <input type="text" Name="First Name" placeholder="姓" required="">
+                <input type="text" Name="Last Name" placeholder="名" required="">
+                <input type="email" Name="Email" placeholder="邮箱" required="">
+            </div>
+            <div class="col-md-6 agilecontactw3ls-grid agilecontactw3ls-grid-2">
+                <textarea name="Message" placeholder="请输入您的意见。。。" required=""></textarea>
+                <div class="send-button">
+                    <input type="submit" value="发送">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- //Contact -->
+
+
+<!-- Footer -->
+<div class="agilefooterwthree" id="agilefooterwthree">
+    <div class="container">
+
+        <div class="agilefooterwthree-grids">
+            <div class="col-md-4 agilefooterwthree-grid agilefooterwthree-grid1">
+                <h4>地址</h4>
+                <ul>
+                    <li><a href="#">北京市海淀区苏州街1号7层075A</a></li>
+                    <li><a href="#">邮编：100089</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 agilefooterwthree-grid agilefooterwthree-grid2">
+                <h4>电话</h4>
+                <ul>
+                    <li><a href="#">010 84832182</a></li>
+                    <li><a href="#">15176135636</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 agilefooterwthree-grid agilefooterwthree-grid3">
+                <h4>邮箱</h4>
+                <ul>
+                    <li><a href="#">15176135636@139.com</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="agilefooterwthreebottom">
+            <div class="col-md-6 agilefooterwthreebottom-grid agilefooterwthreebottom-grid1">
+                <div class="copyright">
+                    <p>Copyright © 2017 | <a href="index.html" target="=_blank"> 北京艳颜菲文化有限公司 </a></p>
+                </div>
+            </div>
+            <div class="col-md-6 agilefooterwthreebottom-grid agilefooterwthreebottom-grid2">
+                <div class="agilesocialwthree">
+                    <p>京ICP备14041336号-1</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#agileitshome" class="agileto-top scroll" title="To Top"><img src="images/to-top.png" alt="Game Robo"></a>
+
+</div>
+<!-- //Footer -->
+
+
+<!-- Custom-JavaScript-File-Links -->
+
+<!-- Default-JavaScript -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- Bootstrap-JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- Resopnsive-Slider-JavaScript -->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+        $("#slider").responsiveSlides({
+            auto: true,
+            nav: true,
+            speed: 2000,
+            namespace: "callbacks",
+            pager: true,
+        });
+    });
+</script>
+<!-- //Resopnsive-Slider-JavaScript -->
+
+<!-- Tab-JavaScript -->
+<script src="js/cbpFWTabs.js"></script>
+<script>
+    (function () {
+        [].slice.call(document.querySelectorAll('.tabs')).forEach(function (el) {
+            new CBPFWTabs(el);
+        });
+    })();
+</script>
+<!-- //Tab-JavaScript -->
+
+<!-- Owl-Carousel-JavaScript -->
+<script src="js/owl.carousel.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#owl-demo, #owl-demo1, #owl-demo2, #owl-demo3, #owl-demo4").owlCarousel({
+            autoPlay: 3000,
+            items: 5,
+            itemsDesktop: [1024, 4],
+            itemsDesktopSmall: [414, 3]
+        });
+    });
+</script>
+<!-- //Owl-Carousel-JavaScript -->
+
+<!-- Stats-Number-Scroller-Animation-JavaScript -->
+<script src="js/waypoints.min.js"></script>
+<script src="js/counterup.min.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+<!-- //Stats-Number-Scroller-Animation-JavaScript -->
+
+<!-- Popup-Box-JavaScript -->
+<script src="js/jquery.chocolat.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.w3portfolioaits-item a').Chocolat();
+    });
+</script>
+<!-- //Popup-Box-JavaScript -->
+
+<!-- Smooth-Scrolling-JavaScript -->
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+        });
+    });
+</script>
+<!-- //Smooth-Scrolling-JavaScript -->
+
+<!-- //Custom-JavaScript-File-Links -->
+
+<script src="js/carousel.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+        Carousel.init($('.carousel'));
+    })
+</script>
+
+<script type="text/javascript" src="js/singin.js"></script>
+
+</body>
+<!-- //Body -->
+
+
+</html>
