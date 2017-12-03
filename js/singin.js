@@ -324,3 +324,17 @@ function showRegistBtn(id){
         document.getElementById("acceptbtn").disabled=true;
     }
 }
+
+
+function checkEmail(){
+    var myemail=document.getElementById('email').value;
+    var myReg=/^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|net|org)$/;
+
+    if(myReg.test(myemail)){
+        $("#email_isor").css('display','none');
+    }else{
+        $("#email_isor").css('display','block');
+        $("#email_is").text("邮箱格式错误");
+        return false;
+    }
+}

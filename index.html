@@ -544,7 +544,10 @@
                                 <div id="register" class="animate w3registeragile form">
                                     <h3>注册</h3>
                                     <input type="text" Name="Name" placeholder="用户名" required="">
-                                    <input type="text" Name="Email" placeholder="邮箱" required="">
+                                    <input type="text" Name="Email" placeholder="邮箱" id="email" onblur="checkEmail()" required="">
+                                    <p class="pageinputmsg" id="email_isor" style="display: none;">
+                                        <strong id="email_is"></strong>
+                                    </p>
                                     <input type="password" id="password" Name="Password" placeholder="密码" required="">
                                     <input type="password" id="password_qr" Name="Password" onblur="bd_pass()"
                                            placeholder="再次输入密码" required="">
@@ -571,7 +574,7 @@
                                         <strong id="phone_tss">请输入正确手机号</strong>
                                     </p>
 
-                                    <div class="send-button wthree agileits text-center">
+                                    <div class=" text-center">
                                         <input class="btn btn-primary" type="submit" value="注册">
                                     </div>
                                 </div>
